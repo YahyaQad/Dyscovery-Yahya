@@ -45,17 +45,17 @@
                 <h2> Vous n'êtes pas encore inscrit ? <a href="inscription.php">Cliquez ici !</a></h2>
             </div>
             <div class="Form">
-                <form>
-                    <label for="email">Votre adresse email :</label>
+                <form action="" method="POST">
+                    <label >Votre adresse email :</label>
                     <div class="inp">
-                        <input type="email" spellcheck="true" required="true" id="email">
+                        <input type="email" spellcheck="true" required="true" name="adresseMail">
                     </div>
-                    <label for="password">Votre mot de passe :</label>
+                    <label >Votre mot de passe :</label>
                     <div class="inp">
-                        <input type="password" spellcheck="true" required="true" id="password">
+                        <input type="password" spellcheck="true" required="true" name="mdp">
                     </div>
                     <div class="btn">
-                        <input type="submit" value="Je me connecte !">
+                        <input type="submit" name="submit" value="Je me connecte !">
                     </div>
                 </form>
             </div>
