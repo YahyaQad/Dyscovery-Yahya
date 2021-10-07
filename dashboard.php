@@ -39,6 +39,12 @@
     </section>
 
     <?php
+    $db_username = 'bitnami';
+    $db_password = 'mdpdebian';
+    $db_name     = 'workshop';
+    $db_host     = 'localhost';
+    $db = mysqli_connect($db_host, $db_username, $db_password,$db_name)
+           or die('Connexion à la bdd impossible');
 session_start();
 
 if (match_found_in_database()) {
