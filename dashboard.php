@@ -63,13 +63,13 @@ if (isset($_SESSION['adresseMail']) ) {
     <section id="step">
         <div class="upper-line">
             <div id="accomodation" class="cards">
-            <a href="logement.php">
+            <a href="../../logement.php">
             <img class="picto" src="ressources_site/picto/picto_logement.png"></a>
                 <div class="pointstep green"></div>
                 <p> Mon logement</p>
             </div>
             <div id="educational" class="cards">
-                <a href="formation.php">
+                <a href="../../formation.php">
                 <img class="picto" src="ressources_site/picto/picto_school.png"></a>
                 <div class="pointstep orange"></div>
                 <p> Mon établissement</p>
@@ -77,13 +77,13 @@ if (isset($_SESSION['adresseMail']) ) {
         </div>
         <div class="bottom-line">
             <div id="finance" class="cards">
-                <a href="aide.html">
+                <a href="../../aide.html">
                 <img class="picto" src="ressources_site/picto/picto_moula.png"></a>
                 <div class="pointstep orange"></div>
                 <p> Démarches financières</p>
             </div>
             <div id="apprenticeship" class="cards">
-                <a href="../../../formation.php">
+                <a href="../../formation.php">
                 <img class="picto" src="ressources_site/picto/picto_alternance.png"></a>
                 <div class="pointstep red"></div>
                 <p> Mon alternance</p>
