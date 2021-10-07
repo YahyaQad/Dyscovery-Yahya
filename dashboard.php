@@ -63,7 +63,7 @@ if (isset($_SESSION['adresseMail']) ) {
     <section id="step">
         <div class="upper-line">
             <div id="accomodation" class="cards">
-            <a href="../../logement.php">
+            <a href="logement.php">
             <img class="picto" src="ressources_site/picto/picto_logement.png"></a>
                 <div class="pointstep green"></div>
                 <p> Mon logement</p>
