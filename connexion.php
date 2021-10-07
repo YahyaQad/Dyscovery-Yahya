@@ -37,8 +37,9 @@ if(isset($_POST['adresseMail']) && isset($_POST['mdp']))
         if($count!=0) // nom d'utilisateur et mot de passe correctes
         {
            $_SESSION['adresseMail'] = $adresseMail;
+           $_SESSION['prenom'] = $prenom;
            echo "Bienvenue";
-           header('Location: ../../index.php');
+           header('Location: dashboard.php');
         }
         else
         {
