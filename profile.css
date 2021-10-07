@@ -169,6 +169,78 @@ header nav ul li ul li {
 .red {
   background-color: red;
 }
+#bannerconseiller
+{
+	background: url("Images/conseiller.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 450px;
+}
+#bannerconseiller .shape .content
+	{
+		float: left;
+		margin-left: 10%;
+		margin-top: 200px;
+		position: absolute;
+	}
+#bannerconseiller .shape .content #Quote1
+	{
+		font-size: 15px;
+		color: #aaa7b0;
+	}
+#bannerconseiller .shape .content #Quote3
+	{
+		font-size: 55px;
+		color: #3399CC;
+		font-weight: bold;
+		padding:1px;
+		border-bottom: 2px solid #aaa7b0;
+	}
+#bannerconseiller .shape .content p
+	{
+		margin-top: 25px;
+		width:300px;
+		color: #ffffff;
+		margin-left: 6%;
+		font-size: 20px;
+	}
+#bannerconseiller .shape .content #desk
+	{
+		color: #3399CC /*#3399CC*/;
+		font-style: italic;
+	}
+#bannerconseiller .shape .content form .searchinp
+	{
+		float: left;
+		width: 440px;
+		height: 40px;
+		padding: 10px;
+		outline: none;
+		border: none;
+		border: 1px solid #3399CC;
+		border-radius: 4px 0px 0px 4px;
+		font-size: 15px;
+		color: #fff;
+		background: transparent;
+	}
+#bannerconseiller .shape .content form .btn
+	{
+		position: absolute;
+		width: 55px;
+		height: 40px;
+		margin-left: -2px;
+		text-align: center;
+		font-size: 22px;
+		background: none;
+		background: #3399CC;
+		border: none;
+		outline: none;
+		padding: 2px;
+		border: 1px solid #3399CC;
+		color: #fff;
+		cursor: pointer;
+		border-radius: 0px 4px 4px 0px;
+}
 
 #banner .shape .content {
   float: left;
@@ -952,3 +1024,162 @@ label {
   margin-bottom: 20px;
   color: white;
 }
+/*CHATBOX*/
+#chatboxlist
+{
+	margin-top: 5%;
+	min-height: 500px;
+	background: #ffffff;
+}
+
+  #chatboxlist form {
+    padding: 15px 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+   
+  #chatboxlist form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+   
+  #chatboxlist input {
+    font-family: "Lato";
+  }
+   
+  #chatboxlist a {
+    color: #0000ff;
+    text-decoration: none;
+  }
+   
+  #chatboxlist a:hover {
+    text-decoration: underline;
+  }
+   
+  #chatboxlist #wrapper, #chatboxlist
+  #loginform {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background: #eee;
+    width: 600px;
+    max-width: 100%;
+    border: 2px solid #212121;
+    border-radius: 4px;
+  }
+   
+  #chatboxlist #loginform {
+    padding-top: 18px;
+    text-align: center;
+  }
+   
+  #chatboxlist #loginform p {
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+   
+  #chatboxlist #chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background: #fff;
+    height: 300px;
+    width: 530px;
+    border: 1px solid #a7a7a7;
+    overflow: auto;
+    border-radius: 4px;
+    border-bottom: 4px solid #a7a7a7;
+  }
+   
+  #chatboxlist #usermsg {
+    flex: 1;
+    border-radius: 4px;
+    border: 1px solid black /*#ff9800*/;
+  }
+   
+  #chatboxlist #name {
+    border-radius: 4px;
+    border: 1px solid #3399CC;
+    padding: 2px 8px;
+  }
+   
+  #chatboxlist #submitmsg,#chatboxlist
+  #enter{
+    background: #3399CC;
+    border: 1px solid black /*#e65100*/;
+    color: white;
+    padding: 4px 11px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+   
+  #chatboxlist .error {
+    color: #ff0000;
+  }
+   
+  #chatboxlist #menu {
+    padding: 15px 25px;
+    display: flex;
+  }
+   
+  #chatboxlist #menu p.welcome {
+    flex: 1;
+  }
+   
+  #chatboxlist a#exit {
+    color: white;
+    background: #c62828;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+   
+  #chatboxlist .msgln {
+    margin: 0 0 5px 0;
+  }
+   
+  #chatboxlist .msgln span.left-info {
+    color: orangered;
+  }
+   
+  #chatboxlist .msgln span.chat-time {
+    color: #666;
+    font-size: 60%;
+    vertical-align: super;
+  }
+   
+  #chatboxlist .msgln b.user-name, .msgln b.user-name-left {
+    font-weight: bold;
+    background: #546e7a;
+    color: white;
+    padding: 2px 4px;
+    font-size: 90%;
+    border-radius: 4px;
+    margin: 0 5px 0 0;
+  }
+   
+  #chatboxlist .msgln b.user-name-left {
+    background: #3399CC;
+  }
+
+  .flex {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+  .cardFormation {
+	  border:solid #3399CC 4px;
+	  padding: 10px;
+	  border-radius: 20px;
+	  color: #232323;
+	  width: 20%;
+	  margin-top: 10px;
+	  margin-bottom: 10px;
+	  margin-left: 5px;
+	  margin-right: 5px;
+  }
+
+  .cardFormation:hover {box-shadow: 0 0 20px black; transition: 400ms;}

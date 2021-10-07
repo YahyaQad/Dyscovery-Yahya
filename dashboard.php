@@ -16,7 +16,7 @@
     <section id="banner">
         <header>
             <div class="shape">
-                <a href="index.html">
+                <a href="dashboard.php">
                 <div class="logo">
                     <img src="Images/logo1.png"></a>
                 </div>
