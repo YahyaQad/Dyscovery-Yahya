@@ -29,7 +29,7 @@
                             <img src="ressources_site/picto/default-user.svg">
                             <ul class="nav-has-dropdown">
                                 <li><a href="#">Profil</a></li>
-                                <li><a href="index.html">Déconnexion</a></li>
+                                <li><a href="deconnexion.php">Déconnexion</a></li>
                             </ul>
                         </li>
                     </ul>
