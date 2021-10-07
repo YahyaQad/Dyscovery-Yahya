@@ -85,32 +85,7 @@
 				<?php
 				}
 				$form->closeCursor();
-				?>
-				
-				<div class="box">
-					<img class="middle" src="blog/article 2/TroublesDeDys.jpg">
-					<div class="titles">
-						<h3>Quels sont les différents troubles de dys ?</h3>
-						<p>On regroupe sous “troubles Dys” les troubles cognitifs spécifiques et les troubles des apprentissages qu’ils induisent. Retrouvez toutes les informations utiles ici !</p>
-						<a href="https://www.ffdys.com/troubles-dys">More</a>
-					</div>
-				</div>
-				<div class="box">
-					<img class="middle" src="blog/article 1/illu.png">
-					<div class="titles">
-						<h3>Qu'est-ce que la dyslexie ?</h3>
-						<p>La dislexie touche 5 à 10% de la population mondiale, mais comment se manfiste-elle ?</p>
-						<a href="https://dysmoi.fr/la-dyslexie-qu-est-ce-que-c-est/">More</a>
-					</div>
-				</div>
-				<div class="box">
-					<img class="middle" src="blog/article 3/aide_emploi.jpg">
-					<div class="titles">
-						<h3>Comment aider un employé dyslexique ?</h3>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
-						<a href="https://www.kellyservices.ca/ca/services-aux-entreprises/centre-de-ressources-pour-les-entreprises/gestion-des-employes/comment-aider-un-employe-dyslexique/">More</a>
-					</div>
-				</div>
+				?>	
 			</article>
 		</div>
 	</section>

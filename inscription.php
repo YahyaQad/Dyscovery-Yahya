@@ -26,8 +26,8 @@
 						<li><a href="index.html#ancre-quisommesnous">Qui sommes Nous?</a></li>
 						<li><a href="#">Nos Services</a>
 							<ul class="nav-has-dropdown">
-								<li><a href="Formation.html">Formation</a></li>
-								<li><a href="Logement.html">Logement</a></li>
+								<li><a href="Formation.php">Formation</a></li>
+								<li><a href="Logement.php">Logement</a></li>
 								<li><a href="Aide.html">Aide</a></li>
 							</ul>
 						</li>
