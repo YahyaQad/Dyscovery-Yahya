@@ -6,7 +6,7 @@ unset($_SESSION["prenom"]);
 
 unset($_SESSION["adresseMail"]);
 
-header("Location:");
+header("Location: index.html");
 
    exit();
 
