@@ -19,7 +19,7 @@
 		<header>
 			<div class="shape">
 				<div class="logo">
-					<img src="Images/logo_simplifié.png">
+					<img src="Images/logo1.png">
 				</div>
 				<nav>
 					<ul>
@@ -33,7 +33,7 @@
 						</li>
 						<!--<li><a href="#">Contacts</a></li>-->
 						<li><a href="#ancre-contact">Nous Contacter</a></li>
-						<li><a href="signin.php">Sign In</a></li>
+						<li><a href="signin.php">Se connecter</a></li>
 					</ul>
 				</nav>
 			</div>
