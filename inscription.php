@@ -7,6 +7,7 @@
 	<meta name="description" content="Affordable Web Development, Professional Web Development">
 	<meta name="keyword" content="Wev Development, Web Design">
 	<meta name="author" content="Alexandre Anania, Programmer and Developer">
+	<link rel="icon" type="image/png" href="Images/logo1.png" />
 	<title>Dys-covery</title>
 	<link rel="stylesheet" type="text/css" href="forms.css">
 	<link
