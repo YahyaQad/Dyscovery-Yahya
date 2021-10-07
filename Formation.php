@@ -53,10 +53,39 @@
 	</section>
        
 		 	<section id="Formationliste">
+
 		<div class="shape">
 			<article id="Thrends">
 				<h1 ><u>Liste des formations :</u></h1>
-				<!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa<br>semper aliquam quis mattis quam.</p>-->
+				<?php
+
+				try
+				{
+					$bdd = new PDO('mysql:host=localhost;dbname=workshop;charset=utf8', 'bitnami', 'mdpdebian');
+				}
+				catch (Exception $e)
+				{
+						die('Erreur : ' . $e->getMessage());
+				}
+				
+				$form = $bdd->query('SELECT * FROM formation');
+				
+				while($formDonnees = $form->fetch()){
+					?>
+					<div class="flex">
+					<div class="cardFormation">
+					<?php echo $formDonnees['nom']; ?> <br>
+					<?php echo $formDonnees['nomEtablissement']; ?><br>
+					<?php echo $formDonnees['cout']; ?><br>
+					<?php echo $formDonnees['discipline']; ?><br>
+					<?php echo $formDonnees['niveau']; ?><br>
+					</div>
+				</div>
+
+				<?php
+				}
+				$form->closeCursor();
+				?>
 				
 				<div class="box">
 					<img class="middle" src="blog/article 2/TroublesDeDys.jpg">
@@ -152,34 +181,6 @@
 			<p>Copyright &copy; 2021 www.Dys-covery.com all right reserved || Design By <span style="color: #e81f6b;">Qaddouri Yahya</span></p>
 		</div>
 	</footer>
-
-	<?php
-
-try
-{
-	$bdd = new PDO('mysql:host=localhost;dbname=workshop;charset=utf8', 'bitnami', 'mdpdebian');
-}
-catch (Exception $e)
-{
-        die('Erreur : ' . $e->getMessage());
-}
-
-$form = $bdd->query('SELECT * FROM formation');
-
-while($formDonnees = $form->fetch()){
-    ?>
-    <p>
-    Nom formation : <?php echo $formDonnees['nom']; ?> <br>
-    Nom établissement : <?php echo $formDonnees['nomEtablissement']; ?><br>
-    Cout de la formation : <?php echo $formDonnees['cout']; ?><br>
-    Discipline : <?php echo $formDonnees['discipline']; ?><br>
-    Niveau de la formation : <?php echo $formDonnees['niveau']; ?><br>
-    Capacit&eacute d'accueil : <?php echo $formDonnees['capacite']; ?><br>
-    </p>
-<?php
-}
-$form->closeCursor();
-?>
 </body>
 
 </html>

@@ -53,9 +53,7 @@ if (isset($_SESSION['adresseMail']) ) {
     <section id="welcome">
         <div id="welcome-contact" class="shape">
             <div class="welcome-header">
-                <?php
-            echo "Bonjour, " . $_SESSION['prenom'] . "!";
-            ?>
+            <h1>Bonjour <span class="username">Alexandre,</span></h1>
 
             </div>
         </div>

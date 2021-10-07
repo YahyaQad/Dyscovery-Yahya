@@ -1840,3 +1840,23 @@ footer .shape .flex .flexbox .UL .LI .A .fa:hover
   #chatboxlist .msgln b.user-name-left {
     background: #3399CC;
   }
+
+  .flex {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+  .cardFormation {
+	  border:solid #3399CC 4px;
+	  padding: 10px;
+	  border-radius: 20px;
+	  color: #232323;
+	  width: 20%;
+	  margin-top: 10px;
+	  margin-bottom: 10px;
+	  margin-left: 5px;
+	  margin-right: 5px;
+  }
+
+  .cardFormation:hover {box-shadow: 0 0 20px black; transition: 400ms;}
