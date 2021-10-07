@@ -63,24 +63,28 @@ if (isset($_SESSION['adresseMail']) ) {
     <section id="step">
         <div class="upper-line">
             <div id="accomodation" class="cards">
-                <img class="picto" src="ressources_site/picto/picto_logement.png">
+            <a href="logement.php">
+            <img class="picto" src="ressources_site/picto/picto_logement.png"></a>
                 <div class="pointstep green"></div>
                 <p> Mon logement</p>
             </div>
             <div id="educational" class="cards">
-                <img class="picto" src="ressources_site/picto/picto_school.png">
+                <a href="formation.php">
+                <img class="picto" src="ressources_site/picto/picto_school.png"></a>
                 <div class="pointstep orange"></div>
                 <p> Mon établissement</p>
             </div>
         </div>
         <div class="bottom-line">
             <div id="finance" class="cards">
-                <img class="picto" src="ressources_site/picto/picto_moula.png">
+                <a href="aide.html">
+                <img class="picto" src="ressources_site/picto/picto_moula.png"></a>
                 <div class="pointstep orange"></div>
                 <p> Démarches financières</p>
             </div>
             <div id="apprenticeship" class="cards">
-                <img class="picto" src="ressources_site/picto/picto_alternance.png">
+                <a href="formation.php">
+                <img class="picto" src="ressources_site/picto/picto_alternance.png"></a>
                 <div class="pointstep red"></div>
                 <p> Mon alternance</p>
             </div>
