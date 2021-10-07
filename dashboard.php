@@ -83,7 +83,7 @@ if (isset($_SESSION['adresseMail']) ) {
                 <p> Démarches financières</p>
             </div>
             <div id="apprenticeship" class="cards">
-                <a href="formation.php">
+                <a href="../../../formation.php">
                 <img class="picto" src="ressources_site/picto/picto_alternance.png"></a>
                 <div class="pointstep red"></div>
                 <p> Mon alternance</p>
