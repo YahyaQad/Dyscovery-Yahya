@@ -47,9 +47,6 @@
            or die('Connexion à la bdd impossible');
 session_start();
 
-if (match_found_in_database()) {
-    $_SESSION['adresseMail'] = $adresseMail; 
-}
 
 if (isset($_SESSION['adresseMail']) ) {
     ?>
@@ -57,7 +54,7 @@ if (isset($_SESSION['adresseMail']) ) {
         <div id="welcome-contact" class="shape">
             <div class="welcome-header">
                 <?php
-            echo "Welcome to the member's area, " . $_SESSION['prenom'] . "!";
+            echo "Bonjour, " . $_SESSION['prenom'] . "!";
             ?>
 
             </div>
